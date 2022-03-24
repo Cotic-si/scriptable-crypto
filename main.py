@@ -4,7 +4,7 @@ import os
 import json
 import datetime
 
-cryptos_url = 'https://finance.yahoo.com/losers/'
+cryptos_url = 'https://finance.yahoo.com/cryptocurrencies/'
 cryptos_response = requests.get(cryptos_url)
 cryptos_page = BeautifulSoup(cryptos_response.text, 'html.parser')
 cryptos_table = cryptos_page.find('tbody')
