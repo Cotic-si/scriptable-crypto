@@ -35,4 +35,4 @@ jobs:
         git config --local user.name "gregorcotic"
         git add docs/result.json -f
         git commit -m "Update docs/result.json" -a
-        git push "https://gregorcotic:$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@github.com/cotic-si/scriptable-crypto.git" HEAD:main --follow-tags
+        git push "https://gregorcotic:$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@github.com/cotic-si/scriptable-crypto.git" HEAD:main --follow-tags
